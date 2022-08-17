@@ -6,3 +6,7 @@ API Documentation for RbxPlug.
 
 * [Users](./USERS.MD)
 * [Offers](./OFFERS.MD)
+* [Postback](./POSTBACK.MD)
+* [Promocodes](./PROMOCODES.MD)
+* [Roblox](./ROBLOX.MD)
+* [Giveaway](./GIVEAWAY.MD)
