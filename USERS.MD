@@ -24,3 +24,28 @@ var data = `{
 
 xhr.send(data);
 ```
+
+
+## `/users/info/:username`
+
+Get user's information, will not work if user does not exists in the database. The response is really quick(4ms record).
+
+```js
+fetch(`/users/info/jub0t`)
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data)
+  })
+  .catch((err) => {
+    console.log(err)
+  })
+```
+
+## `/users/avatar/:user_id` `GET`
+
+Get user's avatar information in json, if you want direct image you can put `?format=png` in the url.
+
+```
+http://127.0.0.1:3000/users/avatar/1877006416
+```
+
