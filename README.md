@@ -10,3 +10,4 @@ API Documentation for RbxPlug.
 * [Promocodes](./PROMOCODES.MD)
 * [Roblox](./ROBLOX.MD)
 * [Giveaway](./GIVEAWAY.MD)
+* [Admin](./ADMIN.MD)
