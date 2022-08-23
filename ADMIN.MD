@@ -16,3 +16,11 @@ Use the `username` query parameter to search for users.
 ```
 http://127.0.0.1:3000/admin/search-users?username=jub0t
 ```
+
+## `/admin/add-balance`
+
+Add balance to a user's account. `username` & `amount` params in the request body are required.
+
+## `/admin/get-promocodes`
+
+List all the promocodes within the database.
