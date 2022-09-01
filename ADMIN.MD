@@ -1,26 +1,21 @@
 # Admin
 
-## `/admin/login`
+## /admin/login `POST`
 
-```json
-{
-  "username": "___",
-  "password": "___"
-}
-```
+Requires `username` & `password` in the body.
 
-## `/admin/search-users` `GET`
+## /admin/search-users `GET`
 
 Use the `username` query parameter to search for users.
 
 ```
-http://127.0.0.1:3000/admin/search-users?username=jub0t
+http://example.com/admin/search-users?username=jub0t
 ```
 
-## `/admin/add-balance`
+## /admin/add-balance `POST`
 
 Add balance to a user's account. `username` & `amount` params in the request body are required.
 
-## `/admin/get-promocodes`
+## /admin/get-promocodes `GET`
 
 List all the promocodes within the database.
